@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testns.rhdhtest
+  description: Test repo
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: anshulbehl/rhdhtest3
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com/#https://github.com/anshulbehl/rhdhtest3
+      title: OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  system: anshulbehl
+  lifecycle: production
+  owner: anshulbehl
